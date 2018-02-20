@@ -12,7 +12,7 @@ const { matchedData, sanitize }   = require('express-validator/filter');
    })
    
   /* POST user registration page. */
-   router.post('/register',[ 
+  router.post('/register',[ 
    
     check('full_name','Name cannot be left blank')
     .isLength({ min: 1 }),
@@ -23,7 +23,7 @@ const { matchedData, sanitize }   = require('express-validator/filter');
     .normalizeEmail()
     .custom(value => {
         return findUserByEmail(value).then(User => {
-          //throw new Error('This email is already exists. Please enter another email. hhh');
+          //if user email already exists throw an error
       })
     }),
 
@@ -32,7 +32,7 @@ const { matchedData, sanitize }   = require('express-validator/filter');
     .matches(/\d/).withMessage('Password must contain one number')
     .custom((value,{req, loc, path}) => {
       if (value !== req.body.cpassword) {
-          // trow error if passwords do not match
+          // throw error if passwords do not match
           throw new Error("Passwords don't match");
       } else {
           return value;
