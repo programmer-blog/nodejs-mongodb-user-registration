@@ -2,9 +2,9 @@
 
 Programmer Blog: http://programmerblog.net
 
-Source code for article on how to create a user registration form using nodejs and mongodb
-You can read detailed tutorial on our blog: https://programmerblog.net/nodejs-user-registration-tutorial/
+- Source code for article on how to create a user registration form using nodejs and mongodb
 
+- You can read detailed tutorial on our blog: https://programmerblog.net/nodejs-user-registration-tutorial/
 
 
  - Install MongoDB
