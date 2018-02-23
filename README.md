@@ -11,19 +11,19 @@ Programmer Blog: http://programmerblog.net
    First you need to install MongoDB on your system, Please visit MonogoDB site and download it.
  
  - Create a MongoDB database
-   After MongoDB installation. Create a data/db directory - In windows c:/data/db
+    After MongoDB installation. Create a data/db directory - In windows c:/data/db
    
-   On command prompt, open MongoDB -> bin folder and run
+ - On command prompt, open MongoDB -> bin folder and run
     > mongod
     
-    Open another command prompt and open bin folder and type
+ - Open another command prompt and open bin folder and type
     > mongo
     
-    Mongo shell is running, type 
+  - Mongo shell is running, type 
     
     > use dbusers
     
-   Current databse will be changed to to db users.
+  - Current databse will be changed to to db users.
  
  - install NodeJS
    Please visit NodeJS site and download installer, Install on your system, It also install NPM or Node Package Manager
