@@ -56,24 +56,8 @@ Programmer Blog: http://programmerblog.net
   - To view runnign app
     Open browser and type the URL: http://localhost:3000
     
-    
-***
-Programmer Blog
-****
-
 
 For detailed tutorial, visit 
 
  http://programmerblog.net/nodejs-user-registration-tutorial/
-
-****
- For more articles and tutorail on NodeJS / MongoDB and other technologies
-***
-
- http://programmerblog.net/
-
-
-
-
-
-    
+ 
